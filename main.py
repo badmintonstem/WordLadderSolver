@@ -135,7 +135,7 @@ if __name__ == '__main__':
     targets, mode = take_inputs()
 
     try:
-        words = read_words("badmintonstem/WordLadderSolver/words")
+        words = read_words("words")
     except OSError as e:
         print("Unable to read word file {}".format(e))
 
